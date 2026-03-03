@@ -1,16 +1,20 @@
 import React from "react";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import { LuListTodo } from "react-icons/lu";
 
 const Projects = () => {
   const projectData = [
     {
+      icon: <MdOutlineShoppingCart size={40} />,
       title: "NEX Shopping Website",
       desc: "Developed an e-commerce web application with user authentication, seller dashboard, product management, cart system, and secure checkout functionality.",
       tech: ["React.js", "Javascript", "Tailwind", "Html"],
     },
     {
-      title: "NEX Shopping Website", // Duplicate for placeholder as per your original code
-      desc: "Developed an e-commerce web application with user authentication, seller dashboard, product management, cart system, and secure checkout functionality.",
+      icon: <LuListTodo size={40} />,
+
+      title: "Todo List Application", // Duplicate for placeholder as per your original code
+      desc: "Developed a fully responsive task management web app. Implemented complete CRUD functionality Create, Read, Update, Delete. Built reusable components.",
       tech: ["React.js", "Javascript", "Tailwind", "Html"],
     },
   ];
@@ -34,10 +38,7 @@ const Projects = () => {
             key={index}
             className="bg-blue-950 p-8 md:p-12 rounded-2xl space-y-6 w-full max-w-lg lg:w-1/2 transition-transform hover:scale-[1.02]"
           >
-            <div className="flex justify-center">
-              <MdOutlineShoppingCart size={40} />
-            </div>
-
+            {project.icon}
             <h2 className="text-2xl font-bold text-white">{project.title}</h2>
             <p className="text-blue-100 leading-relaxed">{project.desc}</p>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import img from "./images/Nabeel.jpeg";
+import { FaRegFileAlt } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -45,8 +46,9 @@ const About = () => {
           </div>
 
           <div className="pt-4">
-            <button className="bg-blue-600 hover:bg-blue-500 text-white text-lg md:text-xl px-8 py-4 rounded-full cursor-pointer transition-all hover:shadow-[0_0_20px_rgba(0,0,0,0.4)] font-semibold active:scale-95">
-              Download Resume
+            <button className="bg-blue-600 flex items-center space-x-2 hover:bg-blue-500 text-white text-lg md:text-xl px-8 py-4 rounded-full cursor-pointer transition-all hover:shadow-[0_0_20px_rgba(0,0,0,0.4)] font-semibold active:scale-95">
+              <FaRegFileAlt size={25} />
+              <p>Download Resume</p>
             </button>
           </div>
         </div>
