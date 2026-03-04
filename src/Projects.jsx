@@ -9,14 +9,14 @@ const Projects = () => {
       title: "NEX Shopping Website",
       desc: "Developed an e-commerce web application with user authentication, seller dashboard, product management, cart system, and secure checkout functionality.",
       tech: ["React.js", "Javascript", "Tailwind", "Html"],
-      link: "https://nex-by-nabeel.vercel.app/",
+      link: "https://nex-1vcrmio8u-nabeel-mhars-projects.vercel.app/",
     },
     {
       icon: <LuListTodo className="text-purple-400" size={35} />,
       title: "Todo List Application",
       desc: "Developed a fully responsive task management web app. Implemented complete CRUD functionality Create, Read, Update, Delete. Built reusable components.",
       tech: ["React.js", "Javascript", "Tailwind", "Html"],
-      link: "https://nex-by-nabeel.vercel.app/",
+      link: "https://nex-1vcrmio8u-nabeel-mhars-projects.vercel.app/",
     },
   ];
 
